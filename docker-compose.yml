@@ -75,10 +75,10 @@ volumes:
     driver_opts:
       o: bind
       type: none
-      device: ./regtests/output
+      device: ./regtests/output/
   credentials:
     driver: local
     driver_opts:
       o: bind
       type: none
-      device: ./regtests/credentials
+      device: ./regtests/credentials/
